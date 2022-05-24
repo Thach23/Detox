@@ -17,6 +17,7 @@ namespace Labixa.Controllers
 {
     public class ShopController : Controller
     {
+        //Shop
         readonly IProductCategoryService _productCategoryService;
         readonly IBlogCategoryService _blogCategoryService;
         readonly IBlogService _blogService;

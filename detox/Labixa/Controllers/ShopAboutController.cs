@@ -17,7 +17,7 @@ namespace Labixa.Controllers
 {
     public class ShopAboutController : Controller
     {
-
+        //ShopAbout
         readonly IProductCategoryService _productCategoryService;
         readonly IBlogCategoryService _blogCategoryService;
         readonly IBlogService _blogService;
@@ -38,6 +38,7 @@ namespace Labixa.Controllers
         private string _storeId;
         private string _lang;
         private string _refixOrder;
+
 
         public ShopAboutController(ShopController shopController ,IOrderItemService orderItemService, IProductCategoryService productCategoryService, IBlogService blogService, IProductService productService, IBlogCategoryService blogCategoryService, IWebsiteAttributeService websiteAttributeService, IMomoService momoService, IOrderService orderService)
         {

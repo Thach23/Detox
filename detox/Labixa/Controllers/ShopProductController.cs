@@ -44,6 +44,7 @@ namespace Labixa.Controllers
 
         public ShopProductController(ShopController shopController, IOrderItemService orderItemService, IProductCategoryService productCategoryService, IBlogService blogService, IProductService productService, IBlogCategoryService blogCategoryService, IWebsiteAttributeService websiteAttributeService, IMomoService momoService, IOrderService orderService)
         {
+            //ShopProduct
             _productCategoryService = productCategoryService;
             _blogService = blogService;
             _productService = productService;

@@ -13,6 +13,7 @@ namespace Labixa.Controllers
 {
     public class ServiceController :  BaseHomeController
     {
+        //Service
          private readonly IProductService _productService;
         private readonly IProductCategoryService _productcategoryService;
         private readonly IBlogService _blogService;

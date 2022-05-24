@@ -19,7 +19,7 @@ namespace Labixa.Controllers
 {
     public class HomeController : Controller
     {
-
+        //ShopHome
         readonly IProductService _productService;
         readonly IBlogService _blogService;
         readonly IWebsiteAttributeService _websiteAttributeService;
