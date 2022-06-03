@@ -18,15 +18,6 @@ namespace Labixa.Controllers
 
         private UserManager<User> _userManager;
         private IUserRoleStore<User> _userRoleManager;
-
-
-
-
-
-
-
-
-
         //Test
         public AccountController(UserManager<User> userManager)
         {
