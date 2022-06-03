@@ -24,6 +24,9 @@ namespace Labixa.Controllers
 
 
 
+
+
+
         //Test
         public AccountController(UserManager<User> userManager)
         {
