@@ -20,6 +20,11 @@ namespace Labixa.Controllers
         private IUserRoleStore<User> _userRoleManager;
 
 
+
+
+
+
+        //Test
         public AccountController(UserManager<User> userManager)
         {
             _userManager = userManager;
