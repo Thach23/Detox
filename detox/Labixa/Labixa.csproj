@@ -347,6 +347,7 @@
     <Compile Include="Controllers\ShopHelpController.cs" />
     <Compile Include="Controllers\ShopNewsController.cs" />
     <Compile Include="Controllers\ShopProductController.cs" />
+    <Compile Include="Controllers\TestPRController.cs" />
     <Compile Include="Controllers\TourController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -2052,6 +2053,7 @@
     <Folder Include="Content\fz3-14199091201320\" />
     <Folder Include="Images\uploaded\.tmb_uploaded\" />
     <Folder Include="Views\CallBack\" />
+    <Folder Include="Views\TestPR\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
